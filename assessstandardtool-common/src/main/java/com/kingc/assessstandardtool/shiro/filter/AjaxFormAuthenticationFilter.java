@@ -1,8 +1,9 @@
 package com.kingc.assessstandardtool.shiro.filter;
 
-import com.seed.shiro.cache.Constants;
-import com.seed.shiro.http.code.HttpCode;
-import com.seed.tool.utils.UtilsWeb;
+
+import com.kingc.assessstandardtool.shiro.cache.Constants;
+import com.kingc.assessstandardtool.shiro.http.code.HttpCode;
+import com.kingc.assessstandardtool.tool.utils.UtilsWeb;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -46,7 +47,7 @@ public class AjaxFormAuthenticationFilter extends FormAuthenticationFilter {
     @Override
     protected boolean onLoginFailure(AuthenticationToken token, AuthenticationException e, ServletRequest request, ServletResponse response) {
         if(e instanceof UnknownAccountException){
-            SecurityUtils.getSubject().getSession().setAttribute(Constants.HTTP_CODE,HttpCode.NO_ACCOUNT);
+            SecurityUtils.getSubject().getSession().setAttribute(Constants.HTTP_CODE, HttpCode.NO_ACCOUNT);
         }else{
             SecurityUtils.getSubject().getSession().setAttribute(Constants.HTTP_CODE,HttpCode.PASSWORLD_ERROR);
         }
