@@ -5,8 +5,9 @@ import com.alibaba.dubbo.common.extension.Activate;
 import com.alibaba.dubbo.common.extension.SPI;
 import com.alibaba.dubbo.rpc.*;
 import com.alibaba.fastjson.JSON;
-import com.seed.dubbo.context.RpcCurrentUser;
-import com.seed.tool.utils.UtilsString;
+import com.kingc.assessstandardtool.dubbo.context.RpcCurrentUser;
+import com.kingc.assessstandardtool.tool.utils.UtilsString;
+
 
 /**
  * @author Administrator

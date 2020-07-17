@@ -2,7 +2,7 @@ package com.kingc.assessstandardtool.dubbo.filter;
 
 
 import com.alibaba.dubbo.rpc.RpcException;
-import com.seed.dubbo.context.RpcCurrentUser;
+import com.kingc.assessstandardtool.dubbo.context.RpcCurrentUser;
 
 /**
  * dubbo上下文
