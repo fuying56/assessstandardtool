@@ -71,6 +71,11 @@
             <version>3.4</version>
         </dependency>
         <dependency>
+            <groupId>cn.com.mkaq</groupId>
+            <artifactId>EOMS</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.4</version>
@@ -127,11 +132,6 @@
             <version>${mybatis-plus.version}</version>
         </dependency>
 
-        <!--<dependency>-->
-        <!--<groupId>tk.mybatis</groupId>-->
-        <!--<artifactId>mapper-spring-boot-starter</artifactId>-->
-        <!--<version>${spring-boot-tk-mybatis.version}</version>-->
-        <!--</dependency>-->
         <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper</artifactId>
@@ -367,50 +367,15 @@
             <version>2.4.4</version>
         </dependency>
         <dependency>
-            <groupId>cn.com.mkaq</groupId>
-            <artifactId>TrineSystem</artifactId>
-            <version>2.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.kingc.mkaq</groupId>
-            <artifactId>platform4j-service-api</artifactId>
-            <version>0.0.5</version>
-        </dependency>
-        <dependency>
-            <groupId>com.kingc.mkaq</groupId>
-            <artifactId>platform4j-model</artifactId>
-            <version>0.0.5</version>
-        </dependency>
-        <dependency>
-            <groupId>com.kingc.mkaq</groupId>
-            <artifactId>platform4j-filter</artifactId>
-            <version>0.0.5</version>
+            <groupId>kingc.heart</groupId>
+            <artifactId>heart-common</artifactId>
+            <version>1.0</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.kingc.mkaq</groupId>
-            <artifactId>platform4j-service-api</artifactId>
-            <version>0.0.5</version>
-        </dependency>
-        <dependency>
-            <groupId>com.kingc.mkaq</groupId>
-            <artifactId>platform4j-common</artifactId>
-            <version>0.0.5</version>
-        </dependency>
-        <dependency>
-            <groupId>com.kingc.mkaq</groupId>
-            <artifactId>platform4j-service-aop</artifactId>
-            <version>0.0.5</version>
-        </dependency>
         <dependency>
             <groupId>com.squareup.okhttp3</groupId>
             <artifactId>okhttp</artifactId>
             <version>3.9.0</version>
-        </dependency>
-        <dependency>
-            <groupId>cn.com.mkaq</groupId>
-            <artifactId>InstantMessaging</artifactId>
-            <version>1.2</version>
         </dependency>
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
@@ -422,10 +387,6 @@
             <artifactId>httpcore</artifactId>
             <version>4.4.6</version>
         </dependency>
-        <dependency>
-            <groupId>cn.com.kingc</groupId>
-            <artifactId>XJDoubleControl</artifactId>
-            <version>1.0</version>
-        </dependency>
+
     </dependencies>
 </project>
