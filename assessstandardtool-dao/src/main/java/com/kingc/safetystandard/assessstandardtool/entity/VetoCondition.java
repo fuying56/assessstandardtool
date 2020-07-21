@@ -1,16 +1,15 @@
 package com.kingc.safetystandard.assessstandardtool.entity;
 
-import com.kingc.assessstandardtool.business.entity.DelEntity;
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.Column;
 import javax.persistence.Table;
 
-@Table(name = "scoring_table")
+@Table(name = "veto_condition")
 @Getter
 @Setter
-public class ScoringTable extends DelEntity {
+public class VetoCondition {
     /**
      * 公司id
      */
@@ -66,4 +65,5 @@ public class ScoringTable extends DelEntity {
      */
     @Column(name = "order_num")
     private String orderNum;
+
 }
