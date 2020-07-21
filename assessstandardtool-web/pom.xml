@@ -14,11 +14,42 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <dependencies>
-        <!-- web启动器 -->
+        <!-- SpringMVC起步依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <!-- 监控程序性能起步依赖（健康监控）配置和使用 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <!-- 添加热部署起步依赖 -->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-devtools</artifactId>-->
+<!--            <scope>runtime</scope>-->
+<!--        </dependency>-->
+        <!-- Spring AOP起步依赖包 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+
+
+
+
+
+
+
+
         <dependency>
             <groupId>com.kingc.safetystandard</groupId>
             <artifactId>assessstandardtool-service</artifactId>
