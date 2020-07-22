@@ -1,5 +1,6 @@
 package com.kingc.safetystandard.assessstandardtool.entity;
 
+import com.kingc.assessstandardtool.business.entity.DelEntity;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,7 +10,7 @@ import javax.persistence.Table;
 @Table(name = "veto_condition")
 @Getter
 @Setter
-public class VetoCondition {
+public class VetoCondition extends DelEntity {
     /**
      * 公司id
      */
