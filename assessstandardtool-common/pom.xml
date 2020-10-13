@@ -36,7 +36,7 @@
         <shiro.version>1.3.0</shiro.version>
         <aspectj.version>1.8.9</aspectj.version>
         <pinyin4j.version>2.5.1</pinyin4j.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <jedis.version>2.8.1</jedis.version>
         <disruptor.version>3.3.4</disruptor.version>
         <poi.version>3.9</poi.version>
