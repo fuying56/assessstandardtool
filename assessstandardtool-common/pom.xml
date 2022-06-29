@@ -39,7 +39,7 @@
         <junit.version>4.12</junit.version>
         <jedis.version>2.8.1</jedis.version>
         <disruptor.version>3.3.4</disruptor.version>
-        <poi.version>3.9</poi.version>
+        <poi.version>4.1.1</poi.version>
         <jxl.version>2.6.12</jxl.version>
         <xfire.version>1.2.6</xfire.version>
         <jsch.version>0.1.53</jsch.version>
